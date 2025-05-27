@@ -22,38 +22,38 @@ const Insights = () => {
         </div>
 
         <Tabs defaultValue="personal" className="w-full">
-          <TabsList className="grid w-full grid-cols-2 md:grid-cols-5 mb-8 h-auto p-1 bg-white/60 backdrop-blur-sm border border-femina-100">
+          <TabsList className="grid w-full grid-cols-2 md:grid-cols-5 mb-8 h-auto p-1  bg-white/80 backdrop-blur-sm">
             <TabsTrigger 
               value="personal" 
-              className="flex items-center gap-2 py-3 px-4 data-[state=active]:bg-femina-500 data-[state=active]:text-white"
+              className="flex mx-2 my-2 items-center gap-2 py-3 px-4 border border-femina-100 shadow-xl data-[state=active]:bg-femina-500 data-[state=active]:text-white"
             >
               <Heart className="h-4 w-4" />
               <span className="hidden sm:inline">Personal</span>
             </TabsTrigger>
             <TabsTrigger 
               value="cycle" 
-              className="flex items-center gap-2 py-3 px-4 data-[state=active]:bg-femina-500 data-[state=active]:text-white"
+              className="flex mx-2 my-2  items-center gap-2 py-3 px-4 border border-femina-100 shadow-xl data-[state=active]:bg-femina-500 data-[state=active]:text-white"
             >
               <TrendingUp className="h-4 w-4" />
               <span className="hidden sm:inline">Cycle</span>
             </TabsTrigger>
             <TabsTrigger 
               value="nutrition" 
-              className="flex items-center gap-2 py-3 px-4 data-[state=active]:bg-femina-500 data-[state=active]:text-white"
+              className="flex mx-2 my-2 items-center gap-2 py-3 px-4 border border-femina-100 shadow-xl data-[state=active]:bg-femina-500 data-[state=active]:text-white"
             >
               <Apple className="h-4 w-4" />
               <span className="hidden sm:inline">Nutrition</span>
             </TabsTrigger>
             <TabsTrigger 
               value="fitness" 
-              className="flex items-center gap-2 py-3 px-4 data-[state=active]:bg-femina-500 data-[state=active]:text-white"
+              className="flex mx-2 my-2 items-center gap-2 py-3 px-4 border border-femina-100 shadow-xl data-[state=active]:bg-femina-500 data-[state=active]:text-white"
             >
               <Dumbbell className="h-4 w-4" />
               <span className="hidden sm:inline">Fitness</span>
             </TabsTrigger>
             <TabsTrigger 
               value="mental" 
-              className="flex items-center gap-2 py-3 px-4 data-[state=active]:bg-femina-500 data-[state=active]:text-white"
+              className="flex mx-2 my-2 items-center gap-2 py-3 px-4 border border-femina-100 shadow-xl data-[state=active]:bg-femina-500 data-[state=active]:text-white"
             >
               <Brain className="h-4 w-4" />
               <span className="hidden sm:inline">Mental</span>
