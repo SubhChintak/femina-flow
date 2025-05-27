@@ -115,8 +115,8 @@ const NavBar = () => {
 
         {/* Mobile Menu Overlay */}
         {isMobileMenuOpen && (
-          <div className="fixed inset-0 top-0 bg-white lg:hidden z-40 animate-fade-in">
-            <div className="container mx-auto px-4 pt-20 pb-6 h-full">
+          <div className="fixed inset-x-0 top-0 bg-gradient-to-br from-pink-50 via-rose-50 to-fuchsia-50 lg:hidden z-40 animate-fade-in">
+            <div className="container  mx-auto px-4 pt-20 pb-6 h-full">
               {/* Mobile Navigation */}
               <nav className="flex flex-col gap-4 mb-8">
                 {navItems.map((item) => (
@@ -127,7 +127,7 @@ const NavBar = () => {
                       "px-4 py-3 rounded-xl transition-all duration-300 text-lg font-lora font-medium",
                       activeTab === item.to
                         ? "bg-gradient-to-r from-femina-500 to-blush-500 text-white shadow-lg transform scale-105"
-                        : "text-femina-900 hover:bg-femina-50 border border-femina-100"
+                        : "text-femina-900 hover:bg-femina-50 border border-femina-200"
                     )}
                     onClick={() => handleTabClick(item.to)}
                   >
