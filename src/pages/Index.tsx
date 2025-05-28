@@ -6,6 +6,7 @@ import Calendar from "@/components/Calendar";
 import NavBar from "@/components/NavBar";
 import InsightCard from "@/components/InsightCard";
 import { Calendar as CalendarIcon, Activity, Baby, Lightbulb, ArrowRight, Heart, Eye, Shield, Users, Sparkles, TrendingUp,CalendarDays } from "lucide-react";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   const navigate = useNavigate();
@@ -278,6 +279,8 @@ const Index = () => {
           </div>
         </div>
       </main>
+
+      <Footer/>
     </div>
   );
 };

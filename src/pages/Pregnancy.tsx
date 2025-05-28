@@ -21,9 +21,9 @@ const Pregnancy = () => {
               <Card className="p-5">
                 <Tabs defaultValue="first">
                   <TabsList className="grid w-full grid-cols-3 mb-4">
-                    <TabsTrigger value="first">First Trimester</TabsTrigger>
-                    <TabsTrigger value="second">Second Trimester</TabsTrigger>
-                    <TabsTrigger value="third">Third Trimester</TabsTrigger>
+                    <TabsTrigger value="first">1st Trimester</TabsTrigger>
+                    <TabsTrigger value="second">2nd Trimester</TabsTrigger>
+                    <TabsTrigger value="third">3rd Trimester</TabsTrigger>
                   </TabsList>
                   
                   <TabsContent value="first">
